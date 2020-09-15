@@ -1,0 +1,66 @@
+@import url("https://fonts.googleapis.com/css2?family=Orbitron&family=Oxygen+Mono&display=swap");
+body {
+  user-select: none;
+  margin: 0;
+  padding: 0;
+  background-color: #bbb;
+}
+
+.calculator {
+  border: 2px solid #400579;
+  width: 322px;
+  margin: 10vh auto 0px auto;
+  box-shadow: 3px 3px 5px #111;
+}
+
+.container-buttons {
+  width: 320px;
+  border: 1px solid #400579;
+}
+
+.big-button {
+  height: 65px;
+  min-width: 160px;
+}
+
+.button {
+  position: relative;
+  height: 65px;
+  width: 80px;
+  background-color: #531a81;
+  color: white;
+  border: 2px solid #400579;
+  font-size: 20px;
+  outline: none;
+  font-family: "Oxygen Mono", sans-serif;
+}
+.button:hover {
+  background-color: #400579;
+  outline: 1px solid gray;
+  z-index: 2;
+  color: black;
+}
+
+.screen {
+  width: 320px;
+  height: 85px;
+  background-color: #201341;
+  border: 1px solid #400579;
+  color: white;
+  text-align: right;
+  font-family: "Orbitron", sans-serif;
+  letter-spacing: 1px;
+}
+
+p {
+  margin-right: 5px;
+  font-size: 0.8em;
+  color: yellow;
+}
+
+#display {
+  font-size: 1.2em;
+  color: white;
+}
+
+/*# sourceMappingURL=output.css.map */
